@@ -1,3 +1,7 @@
+/*
+ * Escribir un programa que pida tu nombre, lo guarde en una variable y lo muestre por pantalla.
+ */
+
 package Java.Guia2;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+/*
+ * Escribir un programa que pida una frase y la muestre toda en mayúsculas y después toda en minúsculas.
+ * Nota: investigar la función toUpperCase() y toLowerCase() en Java.
+ */
+
 package Java.Guia2;
 
 import java.util.Scanner;
@@ -8,7 +13,7 @@ public class Ejercicio3 {
         
         Scanner leer = new Scanner(System.in);
 
-        System.out.println("Por favor ingresa una frase para verla en mayusculas y minusculas: ");
+        System.out.println("Por favor ingresa una frase para verla en mayúsculas y minúsculas: ");
 
         String frase = leer.nextLine();
 

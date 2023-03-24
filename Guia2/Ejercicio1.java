@@ -1,3 +1,8 @@
+/*
+ * Escribir un programa que pida dos números enteros por teclado y calcule la suma de los dos. 
+ * El programa deberá después mostrar el resultado de la suma
+ */
+
 package Java.Guia2;
 
 import java.util.Scanner;
@@ -18,7 +23,7 @@ public class Ejercicio1 {
 
         int resultado = num1 + num2;
 
-        System.out.println("La suma de ambos numeros es: " + resultado);
+        System.out.println("La suma de ambos números es: " + resultado);
 
         leer.close();
     }

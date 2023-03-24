@@ -1,3 +1,9 @@
+/*
+ * Escribir un programa que lea un número entero por teclado y muestre por pantalla el doble,
+ * el triple y la raíz cuadrada de ese número.
+ * Nota: investigar la función Math.sqrt().
+ */
+
 package Java.Guia2;
 
 import java.util.Scanner;
@@ -9,7 +15,7 @@ public class Ejercicio5 {
         
         Scanner leer = new Scanner(System.in);
 
-        System.out.println("Por favor ingrese un numero para ver el Doble, el Triple y la raiz cuadrada: ");
+        System.out.println("Por favor ingrese un número para ver el Doble, el Triple y la raíz cuadrada: ");
 
         int num = leer.nextInt();
 
