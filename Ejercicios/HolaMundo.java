@@ -1,6 +1,6 @@
 
 
-package Java;
+package Java.HolaMundoJava;
 
 public class HolaMundo {
 
