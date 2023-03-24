@@ -1,6 +1,6 @@
 
 
-package Java.Ejercicios;
+package Java;
 
 public class HolaMundo {
 
