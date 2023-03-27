@@ -23,7 +23,7 @@ public class Ejercicio5 {
 
         int triple = num * 3;
 
-        float raiz = (float) Math.sqrt(num);
+        double raiz = Math.sqrt(num);
 
         System.out.println("El doble es " + doble);
         System.out.println("El triple es " + triple);
