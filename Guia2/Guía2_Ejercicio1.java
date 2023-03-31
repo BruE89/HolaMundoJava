@@ -7,7 +7,7 @@ package Java.Guia2;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Guía2_Ejercicio1 {
 
     public static void main (String[] args){
 

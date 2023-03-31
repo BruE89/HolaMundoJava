@@ -8,7 +8,7 @@
 
 package Java.Guia3.Extras;
 
-public class Ejercicio2 {
+public class Guía3_Extras_Ejercicio2 {
 
     public static void main(String[] args) {
         

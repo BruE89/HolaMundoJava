@@ -9,7 +9,7 @@ package Java.Guia2;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Ejercicio5 {
+public class Guía2_Ejercicio5 {
 
     public static void main(String[] args) {
         

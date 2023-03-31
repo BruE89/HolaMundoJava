@@ -13,7 +13,7 @@ package Java.Guia3;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Guía3_Ejercicio6 {
     
     public static void main(String[] args) throws IOException {
         

@@ -17,7 +17,7 @@ package Java.Guia3.Extras;
 
 import java.io.IOException;
 
-public class Ejercicio12 {
+public class Guía3_Extras_Ejercicio12 {
 
     public static void main(String[] args) throws IOException {
         

@@ -8,7 +8,7 @@ package Java.Guia3;
 
 import java.util.Scanner;
 
-public class Ejercicio5 {
+public class Guía3_Ejercicio5 {
     
     public static void main(String[] args) {
 

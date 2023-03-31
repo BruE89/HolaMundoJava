@@ -7,7 +7,7 @@ package Java.Guia3.Extras;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Guía3_Extras_Ejercicio6 {
     
     public static void main(String[] args) {
 
