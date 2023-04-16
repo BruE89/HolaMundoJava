@@ -1,3 +1,5 @@
+package Guía7.Guía7_Ejercicio2.src;
+
 import java.util.Scanner;
 
 public class Circunferencia {
