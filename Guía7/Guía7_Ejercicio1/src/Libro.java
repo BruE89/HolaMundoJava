@@ -12,38 +12,6 @@ public class Libro {
 
     public int paginas;
 
-    public int getIsbn() {
-        return isbn;
-    }
-
-    public void setIsbn(int isbn) {
-        this.isbn = isbn;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getAutor() {
-        return autor;
-    }
-
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
-
-    public int getPaginas() {
-        return paginas;
-    }
-
-    public void setPaginas(int paginas) {
-        this.paginas = paginas;
-    }
-
     public Libro(){
 
     }
@@ -79,13 +47,9 @@ public class Libro {
 
     }
 
-    public void mostrarDatos(){
-
-        System.out.println("Título: " + titulo);
-        System.out.println("ISBN: " + isbn);
-        System.out.println("Autor: " + autor);
-        System.out.println("Páginas: " + paginas);
-
+    @Override
+    public String toString() {
+        return "Libro [isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", paginas=" + paginas + "]";
     }
 
     

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Cuenta {
@@ -10,9 +12,13 @@ public class Cuenta {
 
         Scanner leer = new Scanner(System.in);
 
-        saldo = 1000;
+        System.out.println("Ingrese el nombre del titular");
 
-        titular = "Bruno";
+        titular = leer.nextLine();
+
+        System.out.println("Por favor ingrese su saldo inicial");
+
+        saldo = leer.nextInt();
 
         System.out.print("Bienvenido " + titular + "! Seleccione el monto que desea retirar: ");
 

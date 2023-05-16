@@ -1,4 +1,4 @@
-package Guía7.Guía7_Ejercicio2.src;
+package src;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class Circunferencia {
 
         System.out.println("Por favor ingrese el radio:");
 
-        this.radio = leer.nextDouble();
+        radio = leer.nextDouble();
 
         leer.close();
 

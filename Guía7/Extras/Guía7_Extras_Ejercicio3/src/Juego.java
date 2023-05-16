@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Juego {
@@ -6,7 +8,7 @@ public class Juego {
 
         Scanner leer = new Scanner(System.in);
 
-        boolean ganar = false;
+        boolean salir = false;
 
         int chances = 3;
 
@@ -16,28 +18,26 @@ public class Juego {
 
         int numero = leer.nextInt();
 
-        while (ganar == false && chances != 0) {
+        while (salir == false && chances != 0) {
+
+            System.out.print("Jugador 2, intenta adivinar: ");
+    
+            int intento = leer.nextInt();
 
             chances--;
             intentos++;
-    
-            System.out.println("Jugador 2, intenta adivinar:");
-    
-            int intento = leer.nextInt();
 
             if (intento == numero){
 
                 System.out.println("Adivinaste! Felicitaciones!");
                 System.out.println("El número era: " + numero);
                 System.out.println("Utilizaste " + intentos + " intentos");
-                ganar = true;
-                break;
+                salir = true;
+
 
             }else if (chances == 0){
 
                 System.out.println("Perdiste! Te quedaste sin intentos!");
-                ganar = true;
-                break;
 
             }else if(intento > numero){
 

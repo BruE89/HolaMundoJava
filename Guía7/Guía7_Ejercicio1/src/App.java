@@ -7,7 +7,7 @@ public class App {
 
         miLibro1.pedirDatos();
 
-        miLibro1.mostrarDatos();
+        System.out.println(miLibro1.toString());
 
     }
     
