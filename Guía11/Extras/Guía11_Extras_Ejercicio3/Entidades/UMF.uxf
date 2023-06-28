@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>350</y><w>210</w><h>210</h></coordinates><panel_attributes>Cliente
+--
+-Nombre
+-Apellido
+-Documento
+-Email
+-Domicilio
+-Telefono</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>350</y><w>210</w><h>210</h></coordinates><panel_attributes>Vehiculo
+--
+-Marca
+-Modelo
+-Año
+-Numero de Motor
+-Chasis
+-Color
+-Tipo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>30</y><w>210</w><h>210</h></coordinates><panel_attributes>Póliza
+--
+-Cliente
+-Vehiculo
+
+-Numero de Poliza
+-Fecha de Inicio
+-Fecha de Fin
+-Cantidad de Cuotas
+-Forma de Pago
+-Monto Total Asegurado
+-Incluye Granizo
+-Monto Maximo Granizo
+-Tipo de Cobertura</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>230</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>230</y><w>350</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>330;120;10;10</additional_attributes></element></diagram>
