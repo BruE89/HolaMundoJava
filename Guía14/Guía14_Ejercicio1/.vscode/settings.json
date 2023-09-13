@@ -1,0 +1,29 @@
+{
+    "java.project.sourcePaths": [
+        "Servicios",
+        "Persistencia",
+        "Entidades",
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Bru_a\\Desktop\\persistencia\\mysql-connector-java-5.1.48.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "Tienda",
+            "username": "root",
+            "password": "root",
+            "name": "Base de Datos"
+        }
+    ]
+}

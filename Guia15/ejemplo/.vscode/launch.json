@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-IdDeProyectoApplication<id_de_proyecto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prueba.id_de_proyecto.IdDeProyectoApplication",
+            "projectName": "id_de_proyecto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
